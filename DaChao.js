@@ -145,7 +145,7 @@ async function initGet(url) {
                 'Cache-Control': 'no-cache',
                 'X-REQUEST-ID': generateUUID(),
                 'Accept-Encoding': 'gzip',
-                'user-agent': ua,
+                'user-agent': 'ANDROID;10;10048;14.1.7;1.0;null;YAL-AL00',
             }
         }
         $.get(options, async (err, resp, data) => {
@@ -177,7 +177,7 @@ async function passportPost(url) {
                 'Cache-Control': 'no-cache',
                 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
                 'Accept-Encoding': 'gzip',
-                'user-agent': ua,
+                'user-agent': 'ANDROID;10;10048;14.1.7;1.0;null;YAL-AL00',
             },
             body: params.body
         }
@@ -280,7 +280,7 @@ async function activityGet(url) {
                 'X-DEVICE-SIGN': 'xsb_hn',
                 'X-CLIENT-VERSION': '1314',
                 'accept': 'application/json, text/plain, */*',
-                'user-agent': 'Mozilla/5.0 (Linux; Android 11; 21091116AC Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.85 Mobile Safari/537.36;xsb_hn;xsb_hn;14.1.6;native_app;6.11.0',
+                'user-agent': 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36;xsb_hn;xsb_hn;14.1.7;native_app;6.12.0',
                 'HTTP-X-H5-VERSION': '1',
                 'member': member,
                 'Limit': id,
@@ -324,7 +324,7 @@ async function activityPost(url,body) {
                 'X-CLIENT-VERSION': '1314',
                 'Content-Type': 'application/json;charset=UTF-8',
                 'accept': 'application/json, text/plain, */*',
-                'user-agent': 'Mozilla/5.0 (Linux; Android 11; 21091116AC Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.85 Mobile Safari/537.36;xsb_hn;xsb_hn;14.1.6;native_app;6.11.0',
+                'user-agent': 'Mozilla/5.0 (Linux; Android 10; YAL-AL00 Build/HUAWEIYAL-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36;xsb_hn;xsb_hn;14.1.7;native_app;6.12.0',
                 'HTTP-X-H5-VERSION': '1',
                 'member': member,
                 'Limit': id,
